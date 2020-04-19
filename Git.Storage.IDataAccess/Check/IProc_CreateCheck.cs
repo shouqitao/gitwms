@@ -11,17 +11,9 @@
  * 2014/04/15 10:47:49
 *********************************************************************************/
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Data;
 using Git.Framework.ORM;
 using Git.Storage.Entity.Check;
 
-namespace Git.Storage.IDataAccess.Check
-{
-	public partial interface IProc_CreateCheck : IDbProcHelper<Proc_CreateCheckEntity>
-	{
-	}
+namespace Git.Storage.IDataAccess.Check {
+    public interface IProc_CreateCheck : IDbProcHelper<Proc_CreateCheckEntity> { }
 }

@@ -11,17 +11,9 @@
  * 2013-08-19 12:02:44
 *********************************************************************************/
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Data;
 using Git.Framework.ORM;
 using Git.Storage.Entity.OutStorage;
 
-namespace Git.Storage.IDataAccess.OutStorage
-{
-	public partial interface IOutStorSingle : IDbHelper<OutStorSingleEntity>
-	{
-	}
+namespace Git.Storage.IDataAccess.OutStorage {
+    public interface IOutStorSingle : IDbHelper<OutStorSingleEntity> { }
 }

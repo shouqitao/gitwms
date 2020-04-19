@@ -11,17 +11,9 @@
  * 2013-11-29 23:33:10
 *********************************************************************************/
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Data;
 using Git.Framework.ORM;
 using Git.Storage.Entity.Move;
 
-namespace Git.Storage.IDataAccess.Move
-{
-	public partial interface IMoveOrderDetail : IDbHelper<MoveOrderDetailEntity>
-	{
-	}
+namespace Git.Storage.IDataAccess.Move {
+    public interface IMoveOrderDetail : IDbHelper<MoveOrderDetailEntity> { }
 }

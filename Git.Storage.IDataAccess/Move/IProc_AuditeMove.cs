@@ -12,17 +12,9 @@
  * 2014/05/01 10:31:10
 *********************************************************************************/
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Data;
 using Git.Framework.ORM;
 using Git.Storage.Entity.Move;
 
-namespace Git.Storage.IDataAccess.Move
-{
-	public partial interface IProc_AuditeMove : IDbProcHelper<Proc_AuditeMoveEntity>
-	{
-	}
+namespace Git.Storage.IDataAccess.Move {
+    public interface IProc_AuditeMove : IDbProcHelper<Proc_AuditeMoveEntity> { }
 }

@@ -11,17 +11,9 @@
  * 2013-08-19 11:58:48
 *********************************************************************************/
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Data;
 using Git.Framework.ORM;
 using Git.Storage.Entity.Store;
 
-namespace Git.Storage.IDataAccess.Store
-{
-	public partial interface ICustomer : IDbHelper<CustomerEntity>
-	{
-	}
+namespace Git.Storage.IDataAccess.Store {
+    public interface ICustomer : IDbHelper<CustomerEntity> { }
 }

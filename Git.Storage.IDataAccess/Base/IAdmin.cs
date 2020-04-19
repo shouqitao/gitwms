@@ -11,17 +11,9 @@
  * 2013-08-19 11:55:40
 *********************************************************************************/
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Data;
 using Git.Framework.ORM;
 using Git.Storage.Entity.Base;
 
-namespace Git.Storage.IDataAccess.Base
-{
-	public partial interface IAdmin : IDbHelper<AdminEntity>
-	{
-	}
+namespace Git.Storage.IDataAccess.Base {
+    public interface IAdmin : IDbHelper<AdminEntity> { }
 }

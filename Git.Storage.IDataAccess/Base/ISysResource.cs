@@ -11,17 +11,9 @@
  * 2013-08-19 11:55:42
 *********************************************************************************/
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Data;
 using Git.Framework.ORM;
 using Git.Storage.Entity.Base;
 
-namespace Git.Storage.IDataAccess.Base
-{
-	public partial interface ISysResource : IDbHelper<SysResourceEntity>
-	{
-	}
+namespace Git.Storage.IDataAccess.Base {
+    public interface ISysResource : IDbHelper<SysResourceEntity> { }
 }

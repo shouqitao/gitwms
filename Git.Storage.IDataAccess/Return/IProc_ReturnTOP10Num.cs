@@ -12,17 +12,9 @@
  * 2014/06/09 14:54:53
 *********************************************************************************/
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Data;
 using Git.Framework.ORM;
 using Git.Storage.Entity.Return;
 
-namespace Git.Storage.IDataAccess.Return
-{
-	public partial interface IProc_ReturnTOP10Num : IDbProcHelper<Proc_ReturnTOP10NumEntity>
-	{
-	}
+namespace Git.Storage.IDataAccess.Return {
+    public interface IProc_ReturnTOP10Num : IDbProcHelper<Proc_ReturnTOP10NumEntity> { }
 }

@@ -12,17 +12,9 @@
  * 2014/05/09 23:01:06
 *********************************************************************************/
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Data;
 using Git.Framework.ORM;
 using Git.Storage.Entity.Base;
 
-namespace Git.Storage.IDataAccess.Base
-{
-	public partial interface ITNum : IDbHelper<TNumEntity>
-	{
-	}
+namespace Git.Storage.IDataAccess.Base {
+    public interface ITNum : IDbHelper<TNumEntity> { }
 }

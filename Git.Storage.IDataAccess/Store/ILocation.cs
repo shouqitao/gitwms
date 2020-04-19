@@ -11,17 +11,9 @@
  * 2013-08-19 11:58:47
 *********************************************************************************/
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Data;
 using Git.Framework.ORM;
 using Git.Storage.Entity.Store;
 
-namespace Git.Storage.IDataAccess.Store
-{
-	public partial interface ILocation : IDbHelper<LocationEntity>
-	{
-	}
+namespace Git.Storage.IDataAccess.Store {
+    public interface ILocation : IDbHelper<LocationEntity> { }
 }

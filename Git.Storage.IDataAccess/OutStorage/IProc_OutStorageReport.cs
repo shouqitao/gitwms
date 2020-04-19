@@ -12,17 +12,9 @@
  * 2014-05-21 14:20:24
 *********************************************************************************/
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Data;
 using Git.Framework.ORM;
 using Git.Storage.Entity.OutStorage;
 
-namespace Git.Storage.IDataAccess.OutStorage
-{
-	public partial interface IProc_OutStorageReport : IDbProcHelper<Proc_OutStorageReportEntity>
-	{
-	}
+namespace Git.Storage.IDataAccess.OutStorage {
+    public interface IProc_OutStorageReport : IDbProcHelper<Proc_OutStorageReportEntity> { }
 }

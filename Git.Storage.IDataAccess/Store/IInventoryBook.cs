@@ -11,17 +11,9 @@
  * 2014/03/02 22:02:50
 *********************************************************************************/
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Data;
 using Git.Framework.ORM;
 using Git.Storage.Entity.Store;
 
-namespace Git.Storage.IDataAccess.Store
-{
-	public partial interface IInventoryBook : IDbHelper<InventoryBookEntity>
-	{
-	}
+namespace Git.Storage.IDataAccess.Store {
+    public interface IInventoryBook : IDbHelper<InventoryBookEntity> { }
 }

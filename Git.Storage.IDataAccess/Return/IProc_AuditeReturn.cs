@@ -11,17 +11,9 @@
  * 2014/04/28 22:06:54
 *********************************************************************************/
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Data;
 using Git.Framework.ORM;
 using Git.Storage.Entity.Return;
 
-namespace Git.Storage.IDataAccess.Return
-{
-	public partial interface IProc_AuditeReturn : IDbProcHelper<Proc_AuditeReturnEntity>
-	{
-	}
+namespace Git.Storage.IDataAccess.Return {
+    public interface IProc_AuditeReturn : IDbProcHelper<Proc_AuditeReturnEntity> { }
 }

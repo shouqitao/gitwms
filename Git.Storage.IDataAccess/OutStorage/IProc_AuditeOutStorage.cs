@@ -11,17 +11,9 @@
  * 2014/03/09 12:57:55
 *********************************************************************************/
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Data;
 using Git.Framework.ORM;
 using Git.Storage.Entity.OutStorage;
 
-namespace Git.Storage.IDataAccess.OutStorage
-{
-	public partial interface IProc_AuditeOutStorage : IDbProcHelper<Proc_AuditeOutStorageEntity>
-	{
-	}
+namespace Git.Storage.IDataAccess.OutStorage {
+    public interface IProc_AuditeOutStorage : IDbProcHelper<Proc_AuditeOutStorageEntity> { }
 }

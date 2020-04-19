@@ -1,13 +1,6 @@
 ﻿using Git.Framework.ORM;
 using Git.Storage.Entity.Store;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-namespace Git.Storage.IDataAccess.Store
-{
-    public partial interface IProc_ProductReport : IDbProcHelper<Proc_ProductReportEntity>
-    {
-    }
+namespace Git.Storage.IDataAccess.Store {
+    public interface IProc_ProductReport : IDbProcHelper<Proc_ProductReportEntity> { }
 }

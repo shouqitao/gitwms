@@ -11,17 +11,9 @@
  * 2013-11-29 23:30:43
 *********************************************************************************/
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Data;
 using Git.Framework.ORM;
 using Git.Storage.Entity.Store;
 
-namespace Git.Storage.IDataAccess.Store
-{
-	public partial interface ILocalProduct : IDbHelper<LocalProductEntity>
-	{
-	}
+namespace Git.Storage.IDataAccess.Store {
+    public interface ILocalProduct : IDbHelper<LocalProductEntity> { }
 }

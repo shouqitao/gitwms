@@ -11,17 +11,9 @@
  * 2013-08-19 12:01:21
 *********************************************************************************/
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Data;
 using Git.Framework.ORM;
 using Git.Storage.Entity.InStorage;
 
-namespace Git.Storage.IDataAccess.InStorage
-{
-	public partial interface IInStorDetail : IDbHelper<InStorDetailEntity>
-	{
-	}
+namespace Git.Storage.IDataAccess.InStorage {
+    public interface IInStorDetail : IDbHelper<InStorDetailEntity> { }
 }

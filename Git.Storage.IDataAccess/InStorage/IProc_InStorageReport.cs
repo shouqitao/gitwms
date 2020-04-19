@@ -12,17 +12,9 @@
  * 2014-05-16 14:37:10
 *********************************************************************************/
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Data;
 using Git.Framework.ORM;
 using Git.Storage.Entity.InStorage;
 
-namespace Git.Storage.IDataAccess.InStorage
-{
-	public partial interface IProc_InStorageReport : IDbProcHelper<Proc_InStorageReportEntity>
-	{
-	}
+namespace Git.Storage.IDataAccess.InStorage {
+    public interface IProc_InStorageReport : IDbProcHelper<Proc_InStorageReportEntity> { }
 }

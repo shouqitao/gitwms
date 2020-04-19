@@ -12,17 +12,9 @@
  * 2014-08-06 20:12:59
 *********************************************************************************/
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Data;
 using Git.Framework.ORM;
 using Git.Storage.Entity.Order;
 
-namespace Git.Storage.IDataAccess.Order
-{
-	public partial interface IOrderDetail : IDbHelper<OrderDetailEntity>
-	{
-	}
+namespace Git.Storage.IDataAccess.Order {
+    public interface IOrderDetail : IDbHelper<OrderDetailEntity> { }
 }

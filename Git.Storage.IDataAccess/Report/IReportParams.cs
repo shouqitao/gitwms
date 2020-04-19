@@ -12,17 +12,9 @@
  * 2015/09/05 13:07:36
 *********************************************************************************/
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Data;
 using Git.Framework.ORM;
 using Git.Storage.Entity.Report;
 
-namespace Git.Storage.IDataAccess.Report
-{
-	public partial interface IReportParams : IDbHelper<ReportParamsEntity>
-	{
-	}
+namespace Git.Storage.IDataAccess.Report {
+    public interface IReportParams : IDbHelper<ReportParamsEntity> { }
 }

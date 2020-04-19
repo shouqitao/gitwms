@@ -11,17 +11,9 @@
  * 2014/03/10 17:23:58
 *********************************************************************************/
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Data;
 using Git.Framework.ORM;
 using Git.Storage.Entity.Return;
 
-namespace Git.Storage.IDataAccess.Return
-{
-	public partial interface IReturnOrder : IDbHelper<ReturnOrderEntity>
-	{
-	}
+namespace Git.Storage.IDataAccess.Return {
+    public interface IReturnOrder : IDbHelper<ReturnOrderEntity> { }
 }
